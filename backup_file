@@ -1,0 +1,16 @@
+SOURCE="/mnt/WindowsDocuments"
+DEST="/home/sanjana/WindowsBackup"
+
+TIMESTAMP=$(date +"%Y-%m-%d-%H-%M-%S")
+BACKUP_FOLDER="$DEST/Backup_$TIMESTAMP"
+
+mkdir -p "$BACKUP_FOLDER"
+
+cp -r "$SOURCE"/* "$BACKUP_FOLDER"/
+
+echo "backup completed successfully"
+echo "backup saved in: $BACKUP_FOLDER"
+
+
+
+
