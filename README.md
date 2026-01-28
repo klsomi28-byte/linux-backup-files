@@ -11,6 +11,11 @@ A simple Bash script that creates a timestamped backup of files from a source di
 ## Script Paths
 - Source: `/mnt/WindowsDocuments`
 - Destination: `/home/sanjana/WindowsBackup`
+- 
+## Project Structure
+- backup-file-project/
+├── backup.sh
+├── README.md
 
 ## How to Run
 ```bash
